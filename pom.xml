@@ -1,0 +1,19 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.od</groupId>
+    <artifactId>stomp-websockets-java-client</artifactId>
+    <packaging>pom</packaging>
+	<version>1.0.0-SNAPSHOT</version>
+	<name>Java Stomp Client to Spring Boot Demo Server</name>
+	<modules>
+
+        <!-- Java stomp client -->
+        <module>stomp-java-client</module>
+
+        <!-- An embedded spring boot based tomcat/stomp websockets server forked from
+        https://spring.io/guides/gs/messaging-stomp-websocket/-->
+        <module>stomp-greeting-server</module>
+
+    </modules>
+</project>

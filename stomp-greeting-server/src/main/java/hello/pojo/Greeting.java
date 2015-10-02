@@ -1,6 +1,5 @@
 package hello.pojo;
 
-
 public class Greeting {
 
     private String content;

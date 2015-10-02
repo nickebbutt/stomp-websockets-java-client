@@ -66,7 +66,7 @@ public class HelloClient {
         }
     }
     
-    public static void main(String[] args) throws ExecutionException, InterruptedException {
+    public static void main(String[] args) throws Exception {
         HelloClient helloClient = new HelloClient();
 
         ListenableFuture<StompSession> f = helloClient.connect();
